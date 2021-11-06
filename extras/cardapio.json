@@ -1,0 +1,75 @@
+[
+
+    {
+     "nome": "Big Mac" ,
+     "descricao": "Não existe nada igual! Dois hambúrgueres, alface, queijo e molho especial, cebola e picles num pão com gergelim. O sabor de McDonald’s duplamente delicioso. Com dois hambúrgueres de carne 100% bovina, queijo cheddar derretido, cebola, picles e o incrível molho Big Mac." ,
+     "categoria": "Clássicos" ,
+     "preco": "R$ 20.10",
+     "isGluten": false,
+     "calorias": 503,
+     "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXCTbnv/200/200/original?country=br"
+    },
+    {
+        "nome": "Quarterão com Queijo" ,
+        "descricao": "Inigualável. Perfeito. Um hambúrguer feito com pura carne bovina, envolvida por duas fatias de queijo cheddar, cebola, picles e molhos ketchup e mostarda." ,
+        "categoria": "Clássicos" ,
+        "preco": "R$ 20.10",
+        "isGluten": false,  
+        "calorias": 523,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXNUCF7/200/200/original?country=br"
+    },
+    {
+        "nome": "Cheddar McMelt" ,
+        "descricao": "Sem palavras para descrever. Feito com carne bovina, delicioso queijo tipo cheddar derretido, cebola grelhada ao molho shoyu e para completar um pão escuro com gergelim." ,
+        "categoria": "Clássicos" ,
+        "preco": "R$ 20.10",
+        "isGluten": false,
+        "calorias": 474,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXv7hw4/200/200/original?country=br"
+    },
+    {
+        "nome": "McNífico Bacon" ,
+        "descricao": "São 2 saborosas fatias de bacon, alface, cebola, hambúrguer de 120 gramas de carne bovina, queijo derretido, tomate e um trio de delícias: maionese, ketchup e mostarda." ,
+        "categoria": "Clássicos" ,
+        "preco": "R$ 20.10",
+        "isGluten": false,
+        "calorias": 471,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXjtUHf/200/200/original?country=br"
+    },
+    {
+        "nome": "Duplo Quarterão" ,
+        "descricao": "Duplamente inigualável. Dois hambúrgueres, mostarda, ketchup, cebola e, claro, o delicioso queijo cheddar num pão com gergelim." ,
+        "categoria": "Clássicos" ,
+        "preco": "R$ 20.10",
+        "isGluten": false,
+        "calorias": 761,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzX1Xu4q/200/200/original?country=br"
+    },
+    {
+        "nome": "Duplo Cheddar McMelt" ,
+        "descricao": "Duplamente delicioso. Dois hambúrgueres, delicioso queijo tipo cheddar derretido, cebola ao molho shoyu e para completar um pão escuro com gergelim." ,
+        "categoria": "Clássicos" ,
+        "preco": "R$ 20.10",
+        "isGluten": false,
+        "calorias": 786,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXWKJ6A/200/200/original?country=br"
+    },
+    {
+        "nome": "Duplo Burger Bacon" ,
+        "descricao": "Pra quem ama Bacon! Dois deliciosos hambúrgueres de carne 100% bovina, queijo cheddar derretido, cebola, irresistíveis fatias de bacon e molhos ketchup e mostarda." ,
+        "categoria": "Clássicos" ,
+        "preco": "R$ 20.10",
+        "isGluten": false,
+        "calorias": 447,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kMX5kx4H/200/200/original?country=br"
+    },
+    {
+        "nome": "Duplo Barbecue" ,
+        "descricao": "Dois hambúrgueres de carne 100% bovina, queijo derretido, cebola e o delicioso molho barbecue." ,
+        "categoria": "Clássicos",
+        "preco": "R$ 20.10",
+        "isGluten": false,
+        "calorias": 443,
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$quXhjceH/200/200/original?country=br"
+    }
+]

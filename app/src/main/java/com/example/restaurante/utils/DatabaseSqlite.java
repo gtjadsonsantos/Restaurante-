@@ -15,9 +15,9 @@ import com.example.restaurante.models.vo.ItemCardapio;
 import java.util.ArrayList;
 
 public class DatabaseSqlite extends SQLiteOpenHelper {
-    public static final int DATABASE_VERSION = 1;
+    public static final int DATABASE_VERSION = 2;
     public static final String DATABASE_NAME = "restaurante";
-    private static final String schema = "create table if not exists cardapio (id integer primary key autoincrement, nome varchar(255), descricao varchar(255),cetegoria varchar(255), preco real, isGluten numeric,calorias real )";
+    private static final String schema = "create table if not exists cardapio (id integer primary key autoincrement, nome varchar(255), descricao varchar(255),cetegoria varchar(255), preco real, isGluten numeric,calorias real,image text )";
 
     public DatabaseSqlite(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -41,12 +41,13 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         while (cursor.moveToNext()){
             Integer id=cursor.getInt(0);
             String nome=cursor.getString(1);
-            String descricao=cursor.getString(1);
-            String categoria=cursor.getString(1);
-            String preco=cursor.getString(1);
-            boolean isGluten= Boolean.parseBoolean(cursor.getString(1));
-            double calorias=cursor.getDouble(1);
-            ItemCardapio itemCardapio = new ItemCardapio(id,nome,descricao,categoria,preco,isGluten,calorias);
+            String descricao=cursor.getString(2);
+            String categoria=cursor.getString(3);
+            String preco=cursor.getString(4);
+            boolean isGluten= Boolean.parseBoolean(cursor.getString(5));
+            double calorias=cursor.getDouble(6);
+            String image=cursor.getString(7);
+            ItemCardapio itemCardapio = new ItemCardapio(id,nome,descricao,categoria,preco,isGluten,calorias,image);
 
             listitemCardapio.add(itemCardapio);
         }
@@ -61,6 +62,7 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         values.put("preco",itemCardapio.getPreco());
         values.put("isGluten",itemCardapio.isGluten());
         values.put("calorias",itemCardapio.getCalorias());
+        values.put("image",itemCardapio.getImage());
 
         return getDBInstance(activity).insert("cardapio",null,values);
     }

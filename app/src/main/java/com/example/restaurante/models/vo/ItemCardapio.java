@@ -10,10 +10,11 @@ public class ItemCardapio {
     String preco;
     boolean isGluten;
     double calorias;
+    String image;
 
     public ItemCardapio() { }
 
-    public ItemCardapio(Integer id, String nome, String descricao, String categoria, String preco, boolean isGluten, double calorias) {
+    public ItemCardapio(Integer id, String nome, String descricao, String categoria, String preco, boolean isGluten, double calorias,String image) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
@@ -21,6 +22,7 @@ public class ItemCardapio {
         this.preco = preco;
         this.isGluten = isGluten;
         this.calorias = calorias;
+        this.image = image;
     }
 
     public Integer getId() {
@@ -43,7 +45,7 @@ public class ItemCardapio {
         return descricao;
     }
 
-    public void setDescriçao(String descricao) {
+    public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
 
@@ -77,5 +79,13 @@ public class ItemCardapio {
 
     public void setCalorias(double calorias) {
         this.calorias = calorias;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }

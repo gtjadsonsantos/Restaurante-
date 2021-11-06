@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapios>
+   <cardapio>
+      <calorias>503</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Não existe nada igual! Dois hambúrgueres, alface, queijo e molho especial, cebola e picles num pão com gergelim. O sabor de McDonald’s duplamente delicioso. Com dois hambúrgueres de carne 100% bovina, queijo cheddar derretido, cebola, picles e o incrível molho Big Mac.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXCTbnv/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Big Mac</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>523</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Inigualável. Perfeito. Um hambúrguer feito com pura carne bovina, envolvida por duas fatias de queijo cheddar, cebola, picles e molhos ketchup e mostarda.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXNUCF7/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Quarterão com Queijo</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>474</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Sem palavras para descrever. Feito com carne bovina, delicioso queijo tipo cheddar derretido, cebola grelhada ao molho shoyu e para completar um pão escuro com gergelim.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXv7hw4/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Cheddar McMelt</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>471</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>São 2 saborosas fatias de bacon, alface, cebola, hambúrguer de 120 gramas de carne bovina, queijo derretido, tomate e um trio de delícias: maionese, ketchup e mostarda.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXjtUHf/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>McNífico Bacon</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>761</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Duplamente inigualável. Dois hambúrgueres, mostarda, ketchup, cebola e, claro, o delicioso queijo cheddar num pão com gergelim.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzX1Xu4q/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Duplo Quarterão</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>786</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Duplamente delicioso. Dois hambúrgueres, delicioso queijo tipo cheddar derretido, cebola ao molho shoyu e para completar um pão escuro com gergelim.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXWKJ6A/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Duplo Cheddar McMelt</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>447</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Pra quem ama Bacon! Dois deliciosos hambúrgueres de carne 100% bovina, queijo cheddar derretido, cebola, irresistíveis fatias de bacon e molhos ketchup e mostarda.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kMX5kx4H/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Duplo Burger Bacon</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+   <cardapio>
+      <calorias>443</calorias>
+      <categoria>Clássicos</categoria>
+      <descricao>Dois hambúrgueres de carne 100% bovina, queijo derretido, cebola e o delicioso molho barbecue.</descricao>
+      <image>https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$quXhjceH/200/200/original?country=br</image>
+      <isGluten>false</isGluten>
+      <nome>Duplo Barbecue</nome>
+      <preco>R$ 20.10</preco>
+   </cardapio>
+</cardapios>
