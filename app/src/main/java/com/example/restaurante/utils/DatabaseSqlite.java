@@ -15,9 +15,9 @@ import com.example.restaurante.models.vo.ItemCardapio;
 import java.util.ArrayList;
 
 public class DatabaseSqlite extends SQLiteOpenHelper {
-    public static final int DATABASE_VERSION = 2;
+    public static final int DATABASE_VERSION = 5;
     public static final String DATABASE_NAME = "restaurante";
-    private static final String schema = "create table if not exists cardapio (id integer primary key autoincrement, nome varchar(255), descricao varchar(255),cetegoria varchar(255), preco real, isGluten numeric,calorias real,image text )";
+    private static final String schema = "create table if not exists cardapio (id integer primary key autoincrement, nome varchar(255), descricao varchar(255),categoria varchar(255), preco real, isGluten numeric,calorias real,image varchar(255) )";
 
     public DatabaseSqlite(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -34,8 +34,14 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         db.execSQL(schema);
     }
 
-    public static Cardapio cardapio(Activity activity) {
-        Cursor cursor  = DatabaseSqlite.getDBInstance(activity).rawQuery("select id,nome,descricao,categoria,preco,isGluten,caloriasfrom cardapio",null);
+
+    public void dropDatabase(Activity activity) {
+        activity.deleteDatabase(this.DATABASE_NAME);
+    }
+
+
+    public Cardapio cardapio(Activity activity) {
+        Cursor cursor  = DatabaseSqlite.getDBInstance(activity).rawQuery("select id,nome,descricao,categoria,preco,isGluten,calorias,image from cardapio",null);
         ArrayList<ItemCardapio> listitemCardapio =new ArrayList<ItemCardapio>();
 
         while (cursor.moveToNext()){
@@ -54,6 +60,9 @@ public class DatabaseSqlite extends SQLiteOpenHelper {
         return new Cardapio(listitemCardapio);
     }
 
+    public static void deleteAll(Activity activity) {
+        getDBInstance(activity).execSQL("delete from cardapio");
+    }
     public static long insert(Activity activity, ItemCardapio itemCardapio){
         ContentValues values = new ContentValues();
         values.put("nome",itemCardapio.getNome());
