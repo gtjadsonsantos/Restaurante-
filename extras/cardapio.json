@@ -7,7 +7,7 @@
      "preco": "R$ 20.10",
      "isGluten": false,
      "calorias": 503,
-     "image": "https://images-americanas.b2w.io/produtos/01/00/img/1803369/7/1803369784_1GG.jpg"
+     "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXCTbnv/200/200/original?country=br"
     },
     {
         "nome": "Quarterão com Queijo" ,
@@ -16,7 +16,7 @@
         "preco": "R$ 20.10",
         "isGluten": false,  
         "calorias": 523,
-        "image": "https://celulapop.com.br/wp-content/uploads/2019/04/102791883-quarter-pounder.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXNUCF7/200/200/original?country=br"
     },
     {
         "nome": "Cheddar McMelt" ,
@@ -25,7 +25,7 @@
         "preco": "R$ 20.10",
         "isGluten": false,
         "calorias": 474,
-        "image": "https://img.riomarevoce.com/salvadorshopping/2020/09/cheddar_mcmelt_mcdonalds.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXv7hw4/200/200/original?country=br"
     },
     {
         "nome": "McNífico Bacon" ,
@@ -34,7 +34,7 @@
         "preco": "R$ 20.10",
         "isGluten": false,
         "calorias": 471,
-        "image": "https://img.riomarevoce.com/salvadorshopping/2020/02/mcn%C3%ADfico_bacon_mc_donalds.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXjtUHf/200/200/original?country=br"
     },
     {
         "nome": "Duplo Quarterão" ,
@@ -43,7 +43,7 @@
         "preco": "R$ 20.10",
         "isGluten": false,
         "calorias": 761,
-        "image": "https://img.riomarevoce.com/salvadorshopping/2020/02/duplo_quarter%C3%A3o_mc_donalds.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzX1Xu4q/200/200/original?country=br"
     },
     {
         "nome": "Duplo Cheddar McMelt" ,
@@ -52,7 +52,7 @@
         "preco": "R$ 20.10",
         "isGluten": false,
         "calorias": 786,
-        "image": "https://conteudo.imguol.com.br/blogs/249/files/2019/02/Cheddar_McMELT_alta_OK-1024x643.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kzXWKJ6A/200/200/original?country=br"
     },
     {
         "nome": "Duplo Burger Bacon" ,
@@ -61,7 +61,7 @@
         "preco": "R$ 20.10",
         "isGluten": false,
         "calorias": 447,
-        "image": "https://i.pinimg.com/474x/c9/57/80/c957805c620f8ec9ffe7e365674dc659--burger-kings-cheeseburger.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kMX5kx4H/200/200/original?country=br"
     },
     {
         "nome": "Duplo Barbecue" ,
@@ -70,6 +70,6 @@
         "preco": "R$ 20.10",
         "isGluten": false,
         "calorias": 443,
-        "image": "https://img.riomarevoce.com/salvadornorteonline/2020/09/Duplo-Barbecue.jpg"
+        "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$quXhjceH/200/200/original?country=br"
     }
 ]
