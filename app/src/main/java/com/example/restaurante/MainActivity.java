@@ -65,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
 
             if (Utils.isInternetAvailable(this)) {
                 AsyncHttpClient client = new AsyncHttpClient();
-                client.get(itemCardapio.getImage().substring(1,itemCardapio.getImage().length() - 1), new AsyncHttpResponseHandler() {
+
+                client.get(itemCardapio.getImage().replace("\"", ""), new AsyncHttpResponseHandler() {
 
                     @Override
                     public void onStart() { }

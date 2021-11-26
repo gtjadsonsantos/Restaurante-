@@ -71,8 +71,6 @@ public class Utils {
     };
 
     public static void SyncDatabaseXML(Activity activity) {
-        ArrayList<ItemCardapio> itemCardapios = new ArrayList<>();
-
         AsyncHttpClient client = new AsyncHttpClient();
         client.get("https://raw.githubusercontent.com/jadson179/Restaurante-/master/extras/cardapio.xml", new AsyncHttpResponseHandler() {
 
@@ -85,7 +83,8 @@ public class Utils {
                 XMLParser parser = new XMLParser();
                 Document doc = parser.getDomElement(new String(responseBody)); // getting DOM element
 
-                NodeList nl = doc.getElementsByTagName("cardapios");
+                NodeList nl = doc.getElementsByTagName("cardapio");
+
                 for (int i = 0; i < nl.getLength(); i++) {
                     Element e = (Element) nl.item(i);
                     ItemCardapio item= new ItemCardapio();
@@ -94,7 +93,7 @@ public class Utils {
                     );
 
                     item.setDescricao(
-                            parser.getValue(e,"decricao")
+                            parser.getValue(e,"descricao")
                     );
                     item.setCalorias(
                             Double.parseDouble(
@@ -111,12 +110,17 @@ public class Utils {
                     item.setImage(
                             parser.getValue(e,"image")
                     );
-                    itemCardapios.add(item);
+
+                    DatabaseSqlite.getDBInstance(activity);
+                    DatabaseSqlite.insert(activity,item);
+
                 }
 
             }
             @Override
-            public void onFailure(int statusCode, Header[] headers, byte[] errorResponse, Throwable e) {}
+            public void onFailure(int statusCode, Header[] headers, byte[] errorResponse, Throwable e) {
+
+            }
             @Override
             public void onRetry(int retryNo) {}
         });
